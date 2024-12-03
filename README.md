@@ -15,7 +15,7 @@ Essentially, Node.js is a software environment that allows JavaScript code to be
 
 ## Day 2 
 
-Today in my Node.js course, I completed a small JavaScript refresher and created a basic http request server in the `app.js` file. In JavaScript, I enjoyed the review of primitive and reference types as well as object destructuring and the spread and rest operators. These exercises are in the `play-js` folder. I also enjoyed revisiting request and response Node.js basics. It felt good to run the server and have something happen in the browser. One Node.js topic I'm interested in learning more about tomorrow is the Event Loop. 
+Today in my Node.js course, I completed a small JavaScript refresher and created a basic http request server in the `app.js` file. In JavaScript, I enjoyed the review of primitive and reference types as well as object destructuring and the spread and rest operators. I also enjoyed revisiting request and response Node.js basics. It felt good to run the server and have something happen in the browser. One Node.js topic I'm interested in learning more about tomorrow is the Event Loop. 
 
 
 
