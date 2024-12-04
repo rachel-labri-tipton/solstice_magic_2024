@@ -17,6 +17,10 @@ Essentially, Node.js is a software environment that allows JavaScript code to be
 
 Today in my Node.js course, I completed a small JavaScript refresher and created a basic http request server in the `app.js` file. In JavaScript, I enjoyed the review of primitive and reference types as well as object destructuring and the spread and rest operators. I also enjoyed revisiting request and response Node.js basics. It felt good to run the server and have something happen in the browser. One Node.js topic I'm interested in learning more about tomorrow is the Event Loop. 
 
+## Day 3 
+
+The focus today in the course I'm following was on the Event Loop that Node.js sets up to handle event callbacks. I moved the routes out of the `app.js` and created a `routes.js` file. 
+
 
 
 

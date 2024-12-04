@@ -1,7 +1,5 @@
 const fs = require('fs');
 
-// if request comes, please execute this function
-// createServer callback function that runs anytime a request reaches our server
 const requestHandler = (req, res) => {
   const url = req.url;
   const method = req.method
