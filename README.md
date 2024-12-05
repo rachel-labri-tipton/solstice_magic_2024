@@ -19,7 +19,23 @@ Today in my Node.js course, I completed a small JavaScript refresher and created
 
 ## Day 3 
 
-The focus today in the course I'm following was on the Event Loop that Node.js sets up to handle event callbacks. I moved the routes out of the `app.js` and created a `routes.js` file. 
+The focus today in the course I'm following was on the Event Loop that Node.js sets up to handle event callbacks. I moved the routes out of the `app.js` file and created a `routes.js` file. 
+
+The summary of the module: 
+
+- How the Web Works: Client => Request => Server => Response => Client
+- Node.js Program Lifecycle & Event Loop: Node.js runs non-blocking JS code and uses the Event Loop for running the logic
+- Asynchronous Code
+- Requests and Responses => request data parsed in chunks 
+- Node.js and Core Modules => Node.js ships with core modules (ex. http, fs, path...) and can be imported into any file with `require('module')`
+- Node Module System => import via `require('module')` and export via `module.exports` or `exports.` for multiple exports
+
+
+## Day 4 
+
+Today I completed an assignment to spin up a server and add a couple routes. 
+
+
 
 
 

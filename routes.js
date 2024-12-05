@@ -24,7 +24,6 @@ const requestHandler = (req, res) => {
       console.log(parsedBody)
       fs.writeFile('message.txt', message, err => {
         res.statusCode = 302;
-        // res.setHeader('Location', '/');
         return res.end();
       } );
       
@@ -38,9 +37,5 @@ const requestHandler = (req, res) => {
   res.end();
 }
 
-module.exports = {
-  handler: requestHandler,
-  someText: 'A revelatory text',
-}
-
-
+exports.handler = requestHandler;
+exports.someText = 'A revelatory text';
