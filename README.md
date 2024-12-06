@@ -35,6 +35,15 @@ The summary of the module:
 
 Today I completed an assignment to spin up a server and add a couple routes. 
 
+## Day 5
+
+Yesterday I didn't get up early enough to code in the morning, but today I'm up and going for it before heading to the gym. I'm having a great time with the `christmas_coding_challenge` and feel inspired by all the contributions being shared in the Slack channel. 
+
+Today's modules I'm trying to work through cover 
+- Development Workflow in Node.js and Debugging
+- Working with Express.js
+
+I deleted my work so far and made a new Node.js package with Express.js as a third part dependency. 
 
 
 
