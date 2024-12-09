@@ -76,6 +76,10 @@ Today I've updated my README.md and gone over what I learned this week.
 
 One of my goals during the `christmas_coding_challenge` is to start to work on data structure and algorithm problems on Leetcode. I've added a `leetcode-practice` folder to this repo and will add the problems I solve on Leetcode. 
 
+## Day 8 
+
+Another Leetcode problem today: String Compression. 
+
 
 
 
