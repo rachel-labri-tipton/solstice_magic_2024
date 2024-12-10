@@ -1,25 +1,23 @@
-// core module imports 
-const http = require('http');
+const path = require('path');
 
-// third party imports
 const express = require('express');
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
 
-const app = express()
+const rootDir = require('./util/path');
 
-const adminRoutes = require('./routes/admin')
-const shopRoutes = require('./routes/shop')
+const app = express();
 
-app.use(bodyParser.urlencoded({ extended: false }))
+// import routes from the routes folder
+const homeRoutes = require('./routes/home');
+const userRoutes = require('./routes/users');
 
-// middleware
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(adminRoutes)
-app.use(shopRoutes)
+// use the imported routes
+app.use('/', homeRoutes);
+app.use(userRoutes);
 
-app.use((req, res, next) => {
-  res.status(404).send('<h1>Page not found</h1>')
-})
+app.use((req, res, next) => {res.status(404).sendFile(path.join(__dirname, 'views', '404.html'))})
 
-// listen on port 4000
-app.listen(4000)
+app.listen(3000)

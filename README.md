@@ -80,6 +80,12 @@ One of my goals during the `christmas_coding_challenge` is to start to work on d
 
 Another Leetcode problem today: String Compression. 
 
+## Day 9 
+
+Today I was able to get up early and code. It feels good to be coding consistently on a project. 
+
+But here I am, coding every day for the last week. Today I worked at going more deeply into Express.js routing. I deleted my work again and made a new node package: `rip-it-up-and-start-again` with a fresh `package.json`, `routes` folder, `views` folder, `util` folder for the `path.js` file. There is also now a `public` folder which contains a css file. 
+
 
 
 
