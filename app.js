@@ -1,23 +1,32 @@
-const path = require('path');
-
 const express = require('express');
 const bodyParser = require('body-parser');
-
-const rootDir = require('./util/path');
+const expressHbs = require('express-handlebars');
 
 const app = express();
 
-// import routes from the routes folder
-const homeRoutes = require('./routes/home');
-const userRoutes = require('./routes/users');
+const users = [];
+
+app.engine('hbs', expressHbs({ defaultLayout: 'main-layout', extname: 'hbs' }));
+app.set('view engine', 'ejs');
+app.set('views', 'views');
 
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, 'public')));
 
-// use the imported routes
-app.use('/', homeRoutes);
-app.use(userRoutes);
+app.get('/', (req, res, next) => {
+  res.render('index', { pageTitle: 'Add User' });
+});
 
-app.use((req, res, next) => {res.status(404).sendFile(path.join(__dirname, 'views', '404.html'))})
+app.get('/users', (req, res, next) => {
+  res.render('users', {
+    pageTitle: 'User',
+    users: users,
+    hasUsers: users.length > 0
+  });
+});
 
-app.listen(3000)
+app.post('/add-user', (req, res, next) => {
+  users.push({ name: req.body.username });
+  res.redirect('/users');
+});
+
+app.listen(3000);

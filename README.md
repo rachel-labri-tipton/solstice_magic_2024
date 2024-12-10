@@ -86,6 +86,13 @@ Today I was able to get up early and code. It feels good to be coding consistent
 
 But here I am, coding every day for the last week. Today I worked at going more deeply into Express.js routing. I deleted my work again and made a new node package: `rip-it-up-and-start-again` with a fresh `package.json`, `routes` folder, `views` folder, `util` folder for the `path.js` file. There is also now a `public` folder which contains a css file. 
 
+## Day 10
+
+Today I'm learing about using **dynamic content** and **templating engines** with Node.js. The course covered **EJS**, **Pug** and **Handlebars** as templating engines to use with Node.js. Each seems to have its own philosophy. 
+
+The assignment at the end of the section was to create a new node package that uses Express.js and one of the Template Engines covered in the course material. 
+
+Last but not least, I watched a watched the lectures covering the MVC pattern. This is a pattern I'm familiar with, but it never hurts to go back over the basics. 😄
 
 
 

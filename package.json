@@ -1,7 +1,7 @@
 {
   "name": "rip-it-up-and-start-again",
   "version": "1.0.0",
-  "description": "More Express.js practice, this time serving static files to the user",
+  "description": "Node.js app that uses Express.js with an EJS template engine",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "body-parser": "^1.20.3",
-    "express.js": "^1.0.0"
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
   }
 }

@@ -1,13 +1,19 @@
-const path = require('path')
+const path = require('path');
 
 const express = require('express');
 
-const rootDir = require('../util/path')
+const rootDir = require('../util/path');
+const homeData = require('./home');
 
-const router = express.Router()
+const router = express.Router();
 
-router.get('/users', (req, res, next) => {
-  res.sendFile(path.join(rootDir, 'views', 'users.html'))
-})  
+router.get('/', (req, res, next) => {
+  const users = homeData.users;
+  res.render('users', {
+    users: users, pageTitle: 'Users List', path: '/users', hasUsers: users.length > 0, 
+    activeUsers:  true, userCSS: true
+  });
+} )
 
-module.exports = router
+
+module.exports = router;
