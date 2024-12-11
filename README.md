@@ -88,11 +88,17 @@ But here I am, coding every day for the last week. Today I worked at going more 
 
 ## Day 10
 
-Today I'm learing about using **dynamic content** and **templating engines** with Node.js. The course covered **EJS**, **Pug** and **Handlebars** as templating engines to use with Node.js. Each seems to have its own philosophy. 
+Today I'm learing about using **dynamic content** and **templating engines** with Node.js. The course covered **EJS**, **Pug** and **Handlebars** as templating engines to use with Node.js. Each seems to have its own philosophy. **Pug**
 
 The assignment at the end of the section was to create a new node package that uses Express.js and one of the Template Engines covered in the course material. 
 
 Last but not least, I watched a watched the lectures covering the MVC pattern. This is a pattern I'm familiar with, but it never hurts to go back over the basics. 😄
+
+## Day 11
+
+Today in the Node.js course is a review of dynamic routing. Without a database set up for the project, data writes and reads are to a JSON file for the moment. 
+
+I also watched lectures that cover SQL and NoSQL databases and the advantages and disadvantages of each type of database when it comes to both vertical and horizontal scaling capabilities. The two companies I've worked for use SQL databases, so it's great to have a small refresher of NoSQL databases and their potential scaling capabilities. 
 
 
 
