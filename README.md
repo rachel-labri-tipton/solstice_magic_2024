@@ -104,7 +104,11 @@ I also watched lectures that cover SQL and NoSQL databases and the advantages an
 
 After two longer days working with the Node.js course material, I’m taking a small break and just submitting work on a LeetCode problem that I’ve solved previously in Python3 but wanted to have a go at with JavaScript: [Longest Subarray of 1’s after deleting one element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/). 
 
+## Day 13 
 
+Today I hooked an SQL database up to my naisent Node.js app using the Sequelize ORM library. ORM? Object-relational mapping. In my previous roles, I've had the opportunity to use Active Record (Ruby) and the SQLAlchemy (Python). Neither of the latter were ever introduced to me. They just lived in the code bases I was working in, and I tended to learn enough to be dangerous using them.  Sequelize carries out this ORM functionality in JavaScript. 
+
+Ultimately, the course I'm following will be using a NoSQL database, but it was nice to have this SQL refresher and Sequelize introduction.
 
 
 
