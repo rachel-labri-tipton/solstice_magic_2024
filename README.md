@@ -100,7 +100,9 @@ Today in the Node.js course is a review of dynamic routing. Without a database s
 
 I also watched lectures that cover SQL and NoSQL databases and the advantages and disadvantages of each type of database when it comes to both vertical and horizontal scaling capabilities. The two companies I've worked for use SQL databases, so it's great to have a small refresher of NoSQL databases and their potential scaling capabilities. 
 
+## Day 12
 
+After two longer days working with the Node.js course material, I’m taking a small break and just submitting work on a LeetCode problem that I’ve solved previously in Python3 but wanted to have a go at with JavaScript: [Longest Subarray of 1’s after deleting one element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/). 
 
 
 
