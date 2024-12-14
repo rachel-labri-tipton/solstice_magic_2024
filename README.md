@@ -111,5 +111,7 @@ Today I hooked an SQL database up to my naisent Node.js app using the Sequelize 
 Ultimately, the course I'm following will be using a NoSQL database, but it was nice to have this SQL refresher and Sequelize introduction.
 
 
+## Day 14
 
+Leetcode problem today. I've been polking my way through the Leetcode 
 
