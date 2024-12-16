@@ -113,5 +113,9 @@ Ultimately, the course I'm following will be using a NoSQL database, but it was 
 
 ## Day 14
 
-Leetcode problem today. I've been polking my way through the Leetcode 
+Leetcode problem today. 
+
+## Day 15
+
+Today I reviewed NoSQL databases and set up a MongoDB database that is connected to my online shop app. 
 

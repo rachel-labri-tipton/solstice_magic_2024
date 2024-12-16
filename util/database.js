@@ -1,9 +1,28 @@
-// file for the database connection
-const Sequelize = require('sequelize');  
+const mongodb = require('mongodb');
+const MongoClient = mongodb.MongoClient;
 
-const sequelize = new Sequelize('node-db', 'root', 'nodedb', { dialect: 'mysql',
-  host: 'localhost'}
-)
+let _db;
 
-module.exports = sequelize;
+const mongoConnect = (callback) => {
+  MongoClient.connect('mongodb+srv://racheltipton:8LBkY9rDXylFmomJ@cluster0.uswnh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+    .then(client => {
+      console.log('Connected');
+      _db = client.db('test');
+      callback();
+    })
+    .catch(err => {
+      console.log(err);
+      throw err;
+    });
+}
 
+const getDb = () => {
+  if (_db) {
+    return _db;
+  }
+  throw 'No database found';
+}
+
+
+exports.mongoConnect = mongoConnect;
+exports.getDb = getDb;
