@@ -119,3 +119,6 @@ Leetcode problem today.
 
 Today I reviewed NoSQL databases and set up a MongoDB database that is connected to my online shop app. 
 
+## Day 16
+
+What I'm working on today is using Mongoose, the Object-document mapping library that is to MongoDB what Sequelize is to SQL databases.  
