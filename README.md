@@ -122,3 +122,13 @@ Today I reviewed NoSQL databases and set up a MongoDB database that is connected
 ## Day 16
 
 What I'm working on today is using Mongoose, the Object-document mapping library that is to MongoDB what Sequelize is to SQL databases.  
+
+## Day 17
+
+There was no coding today. I just watched a lecture on REST APIs and took notes. Like the JavaScript refresher in the course I'm following, it felt good to review some of the foundational principles of REST APIs. 
+
+## Day 18
+
+Leetcode problem today. Also, I attended the final session of the Women Coding Community Design Pattern's course today. It felt like great synchronicity covering the MVC pattern on the last session of that course on patterns. 
+
+With 7 days left to the challenge, I'm realizing I won't be completely finishing the Node.js course I'm following on Udemy, so I'm trying to make some decisions about what I can get done in the time remaining. 
