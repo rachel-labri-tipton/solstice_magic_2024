@@ -139,6 +139,6 @@ Over the course of this week, with the course that I'm following in Node.js, I'v
 
 ## Day 20
 
-Day 20...the final push to finish the challente! It's a leetcode problem today. With the holiday season, I think the last few days of the challenge will be Leetcode problems, because it's proving to be a bit hard to continue working on my Node.js project. I do feel like I'm moving towards my initial goals of being more comfortable with Node.js and increasing my JavaScript knowledge by practicing data structure and algorithm problems in JavaScript. 
+Day 20...the final push to finish the challenge! It's a leetcode problem today. With the holiday season, I think the last few days of the challenge will be Leetcode problems, because it's proving to be a bit hard to continue working on my Node.js project. I do feel like I'm moving towards my initial goals of being more comfortable with Node.js and increasing my JavaScript knowledge by practicing data structure and algorithm problems in JavaScript. 
 
 I might still work a little bit on the Node.js course but won't pressure myself to make commits that might be hard to make. 
