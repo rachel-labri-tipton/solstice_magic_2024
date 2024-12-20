@@ -132,3 +132,8 @@ There was no coding today. I just watched a lecture on REST APIs and took notes.
 Leetcode problem today. Also, I attended the final session of the Women Coding Community Design Pattern's course today. It felt like great synchronicity covering the MVC pattern on the last session of that course on patterns. 
 
 With 7 days left to the challenge, I'm realizing I won't be completely finishing the Node.js course I'm following on Udemy, so I'm trying to make some decisions about what I can get done in the time remaining. 
+
+## Day 19
+
+Over the course of this week, with the course that I'm following in Node.js, I've reviewed the basics for REST APIs. Today I'll be working on decoupling the frontend from the backend of the application. What I've enjoyed about this process over the last few weeks is the practice and repetition of creating a new Node.js package each time. 
+
