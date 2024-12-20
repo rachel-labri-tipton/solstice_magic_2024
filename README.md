@@ -137,3 +137,8 @@ With 7 days left to the challenge, I'm realizing I won't be completely finishing
 
 Over the course of this week, with the course that I'm following in Node.js, I've reviewed the basics for REST APIs. Today I'll be working on decoupling the frontend from the backend of the application. What I've enjoyed about this process over the last few weeks is the practice and repetition of creating a new Node.js package each time. 
 
+## Day 20
+
+Day 20...the final push to finish the challente! It's a leetcode problem today. With the holiday season, I think the last few days of the challenge will be Leetcode problems, because it's proving to be a bit hard to continue working on my Node.js project. I do feel like I'm moving towards my initial goals of being more comfortable with Node.js and increasing my JavaScript knowledge by practicing data structure and algorithm problems in JavaScript. 
+
+I might still work a little bit on the Node.js course but won't pressure myself to make commits that might be hard to make. 
