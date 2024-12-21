@@ -49,7 +49,7 @@ console.log(mergeAlternately("ab", "pqrs")) // "apbqrs"
 // Time complexity: O(n)
 // Space complexity: O(n)
 
-// Constraints:
+// Constraints: lkjlkj 
 
 // 1 <= word1.length, word2.length <= 100
 // word1 and word2 consist of lowercase English letters.

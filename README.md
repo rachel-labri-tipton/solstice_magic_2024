@@ -143,6 +143,7 @@ Day 20...the final push to finish the challenge! It's a leetcode problem today. 
 
 I might still work a little bit on the Node.js course but won't pressure myself to make commits that might be hard to make. 
 
+
 ## Day 21
 
 Today I completed a Leeetcode problem: [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/). While I really enjoyed working through the Node.js course material for this coding challenge, it's also nice to see that I can set a doable daily goal for the final push of this coding challenge and work on my goal of increasing my knowledge of the JavaScript language. 
