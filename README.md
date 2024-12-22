@@ -147,3 +147,7 @@ I might still work a little bit on the Node.js course but won't pressure myself 
 ## Day 21
 
 Today I completed a Leeetcode problem: [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/). While I really enjoyed working through the Node.js course material for this coding challenge, it's also nice to see that I can set a doable daily goal for the final push of this coding challenge and work on my goal of increasing my knowledge of the JavaScript language. 
+
+## Day 22
+
+Today I completed another Leetcode problem: [Max Number of K-sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/). 
