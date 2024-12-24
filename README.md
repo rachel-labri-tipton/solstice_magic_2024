@@ -151,3 +151,12 @@ Today I completed a Leeetcode problem: [Merge Strings Alternately](https://leetc
 ## Day 22
 
 Today I completed another Leetcode problem: [Max Number of K-sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/). 
+
+## Day 23
+
+Another Leetcode problem: [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/) amidst getting ready for the holiday. 
+
+## Day 24 
+
+Another LeetCode problem today: [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/). Today I attempted a Linked List problem. I'd like to spend a bit more time with this concept in JavaScript. 
+
