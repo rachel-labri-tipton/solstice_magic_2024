@@ -160,3 +160,7 @@ Another Leetcode problem: [Find the Highest Altitude](https://leetcode.com/probl
 
 Another LeetCode problem today: [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/). Today I attempted a Linked List problem. I'd like to spend a bit more time with this concept in JavaScript. 
 
+## Day 25 
+
+It's the final day of the coding challenge! I'm doing a LeetCode problem: [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/). It feels good to have built a new habit and even better to be ready to take a break for a few days. 
+
